@@ -44,9 +44,8 @@ body {
       color: white;
       padding: 1em 0;
       font-size: 1.5rem;
-      &:focus + label span,
       &:valid + label span,
-      &:invalid + label span {
+      &:focus + label span {
         color: lightblue;
         transform: translateY(-30px);
       }

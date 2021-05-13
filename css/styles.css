@@ -45,9 +45,8 @@ body {
   font-size: 1.5rem;
 }
 
-.form .input-container input:focus + label span,
 .form .input-container input:valid + label span,
-.form .input-container input:invalid + label span {
+.form .input-container input:focus + label span {
   color: lightblue;
   transform: translateY(-30px);
 }
